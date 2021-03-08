@@ -57,3 +57,10 @@ Lua可以热重载，通过/lreload指令。
 `runCmdAs(玩家指针:int,指令:str) -> bool`
 
 返回指令是否执行成功，参考链式命令方块
+
+### **获取玩家IP(玩家特有API)**
+
+`getIP(玩家指针:int) -> str`
+
+返回玩家IP
+
