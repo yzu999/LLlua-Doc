@@ -22,10 +22,6 @@ Lua可以热重载，通过/lreload指令。
 
 - `num`为实数
 
-- `xstr`为可以转化为`str`的类型，包括`bool,str,int,num`以及`table`，table会被转化为类似
-
-`["value1","value2"]`的字符串
-
 ## API文档描述约定
 
 函数名(参数) -> (返回值,返回值...)</br>
