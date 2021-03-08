@@ -40,7 +40,7 @@ Lua可以热重载，通过/lreload指令。
 
 ## API列表
 
-**发送文本(玩家特有API)**
+### **发送文本(玩家特有API)**  
  给玩家发送文本</br>
 
 `Actor:sendText(玩家指针:int,文本:str [,文本类型:int])`
@@ -52,7 +52,7 @@ Lua可以热重载，通过/lreload指令。
 - 4: JUKEBOX_POPUP (音乐盒 物品栏上)
 - 5: TIP (物品栏上)
 
-**以玩家身份执行指令(玩家特有API)**
+### **以玩家身份执行指令(玩家特有API)**
 
 `runCmdAs(玩家指针:int,指令:str) -> bool`
 
