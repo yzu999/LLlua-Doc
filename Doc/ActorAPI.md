@@ -1,10 +1,12 @@
-# BDXLua接口
+# LiteLuaLoader接口
 
 ## 概述
 
 服务器启动时，会执行lua文件夹下的所有lua文件。
 
 Lua可以热重载，通过/lreload指令。
+
+本文档讲为您介绍如何使用ActorAPI操作生物/玩家。
 
 ## 类型约定
 
@@ -34,10 +36,9 @@ Lua可以热重载，通过/lreload指令。
 
 例如:</br>
 
-`playerName:str,money:int`
+`playerPtr:int,v1:str`
 
 ## API列表
 
-### 服务器基础
-
 **发送文本**
+
