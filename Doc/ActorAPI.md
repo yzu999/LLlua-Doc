@@ -54,4 +54,6 @@ Lua可以热重载，通过/lreload指令。
 
 **以玩家身份执行指令(玩家特有API)**
 
-`runCmdAs(玩家指针:int,指令:str)`
+`runCmdAs(玩家指针:int,指令:str) -> bool`
+
+返回指令是否执行成功，参考链式命令方块
