@@ -104,9 +104,16 @@ Lua可以热重载，通过/lreload指令。
 ### **隐身**
 
 `Actor:vanish(玩家指针:int,生物指针:int)`
-
 让指定玩家看不到某生物
+
+重载:
+`Actor:vanish(生物指针:int)`
+让所有玩家看不到某一生物
 
 ### **强制传送**
 
 `Actor:teleport(生物指针:int,x:num,y:num,z:num,dim:int`
+
+### **获取生物背包物品(可能为玩家仅有，没试)**
+`Actor:getPlayerInv(生物指针:int) -> inv:table`
+
