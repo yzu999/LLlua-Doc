@@ -88,8 +88,8 @@ onJoin| 玩家进入服务器 |(PlayerPtr:int)|(114514)| |
 onLeft|玩家退出|(PlayerPtr:int)|(114514)| |
 onChat(可取消)|玩家发言|PlayerPtr:int,msg:str)|(114514,"hello")| |
 onCMD(可取消)|玩家输入指令|(SenderPtr:int,cmd:str)|(0,"me hello")| SenderPtr可能为0|
-onMobDie|实体死亡|(ActorPtrA:str,ActorPtrB:int)|(1234,4132)|ActorPtrA为死亡生物指针,ActorPtrB为杀死该生物的生物的指针(可能为0)|
-onMobHurt|实体受伤|(ActorPtrA:str,ActorPtrB:int)|(1234,4132)|ActorPtrA为受伤生物指针,ActorPtrB为攻击该生物的生物的指针(可能为0)|
+onMobDie(可取消)|实体死亡|(ActorPtrA:str,ActorPtrB:int)|(1234,4132)|ActorPtrA为死亡生物指针,ActorPtrB为杀死该生物的生物的指针(可能为0)|
+onMobHurt(可取消)|实体受伤|(ActorPtrA:str,ActorPtrB:int)|(1234,4132)|ActorPtrA为受伤生物指针,ActorPtrB为攻击该生物的生物的指针(可能为0)|
 
 *取消事件只需 return -1*
 
