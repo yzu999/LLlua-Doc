@@ -60,6 +60,13 @@ cancel(id)    --- 取消第一个任务
 
 `setOnlineNum(num:int,max:int)`
 
+**注册指令**
+
+`makeCommand(cmd:str,des:str,lv:int)`
+lv的范围是0~5,0为所有人可见
+
+重载:`makeCommand(cmd:str,des:str)`
+
 ### 数据库相关
 `dget(玩家名:str,数据名:str)`->nil or str</br>
 获取玩家储存数据，如果不存在返回nil，否则返回str</br>
