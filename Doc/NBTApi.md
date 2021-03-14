@@ -1,4 +1,3 @@
-没写呢，晚上回来写
 # LiteLuaLoader接口
 
 ## 概述
